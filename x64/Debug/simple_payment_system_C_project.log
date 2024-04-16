@@ -1,0 +1,29 @@
+﻿  app.c
+  Card.c
+  Server.c
+C:\Users\Selim\source\repos\simple_payment_system_C_project\app.c(89,2): warning C4013: 'gets' undefined; assuming extern returning int
+C:\Users\Selim\source\repos\simple_payment_system_C_project\Card.c(14,1): warning C4005: 'NULL': macro redefinition
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime.h(235,1):
+  see previous definition of 'NULL'
+  
+C:\Users\Selim\source\repos\simple_payment_system_C_project\Card.c(32,35): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
+C:\Users\Selim\source\repos\simple_payment_system_C_project\Card.c(58,39): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
+C:\Users\Selim\source\repos\simple_payment_system_C_project\Card.c(86,41): warning C4267: 'initializing': conversion from 'size_t' to 'uint8_t', possible loss of data
+C:\Users\Selim\source\repos\simple_payment_system_C_project\Server.c(17,1): warning C4005: 'NULL': macro redefinition
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime.h(235,1):
+  see previous definition of 'NULL'
+  
+  Terminal.c
+C:\Users\Selim\source\repos\simple_payment_system_C_project\Terminal.c(21,48): warning C4133: 'function': incompatible types - from 'const uint16_t *' to 'const char *'
+C:\Users\Selim\source\repos\simple_payment_system_C_project\Terminal.c(27,8): warning C4013: 'isdigit' undefined; assuming extern returning int
+C:\Users\Selim\source\repos\simple_payment_system_C_project\Terminal.c(21,41): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\Selim\source\repos\simple_payment_system_C_project\Terminal.c(57,37): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\Selim\source\repos\simple_payment_system_C_project\Terminal.c(166,28): warning C4133: 'function': incompatible types - from 'uint8_t [20]' to 'const uint16_t *'
+  Generating Code...
+C:\Users\Selim\source\repos\simple_payment_system_C_project\Terminal.c(175): warning C4715: 'isValidCardPAN': not all control paths return a value
+C:\Users\Selim\source\repos\simple_payment_system_C_project\Server.c(82): warning C4715: 'isBlockedAccount': not all control paths return a value
+C:\Users\Selim\source\repos\simple_payment_system_C_project\Server.c(179): warning C4715: 'recieveTransactionData': not all control paths return a value
+C:\Users\Selim\source\repos\simple_payment_system_C_project\app.c(137): warning C4715: 'APP_getCardData': not all control paths return a value
+C:\Users\Selim\source\repos\simple_payment_system_C_project\app.c(197): warning C4715: 'APP_getTerminalData': not all control paths return a value
+C:\Users\Selim\source\repos\simple_payment_system_C_project\app.c(270): warning C4715: 'APP_getServerData': not all control paths return a value
+  simple_payment_system_C_project.vcxproj -> C:\Users\Selim\source\repos\simple_payment_system_C_project\x64\Debug\simple_payment_system_C_project.exe
